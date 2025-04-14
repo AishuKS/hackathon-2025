@@ -14,8 +14,8 @@ const HomePage = () => {
         <p className="tagline">Saving food. Serving purpose.</p>
 
         <p className="description">
-          Join a movement to reduce food waste and support communities in need.
-          Whether you’re donating or receiving, Plate2Purpose makes it simple and impactful.
+        Join a movement to reduce food waste and support communities in need. 
+        Whether you’re sharing a meal or finding one, Plate2Purpose makes it simple and impactful.
         </p>
 
         <div className="button-group">

@@ -36,8 +36,8 @@ const SignupPage = () => {
       // Determine the endpoint based on the role
       const endpoint =
         role === "sharer"
-          ? "http://192.168.0.198:5000/api/auth/signup/sharer"  // Updated IP address
-          : "http://192.168.0.198:5000/api/auth/signup/finder"; // Updated IP address
+          ? "http://104.194.104.93:5000/api/auth/signup/sharer"  // Updated IP address
+          : "http://104.194.104.93:5000/api/auth/signup/finder"; // Updated IP address
 
       const res = await fetch(endpoint, {
         method: "POST",

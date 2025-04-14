@@ -1,0 +1,103 @@
+.add-food-modal {
+    height: 100vh;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Segoe UI", sans-serif;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  
+  .form-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e65100;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  
+  .add-food-modal form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .add-food-modal label {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 2px;
+  }
+  
+  .add-food-modal input,
+  .add-food-modal select,
+  .add-food-modal textarea {
+    padding: 6px 8px;
+    font-size: 0.85rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 50px;
+  }
+  
+  .allergen-dropdown {
+    font-size: 0.85rem;
+  }
+  
+  .submit-button {
+    background-color: #f57c00;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-top: 6px;
+  }
+  
+  .submit-button:hover {
+    background-color: #e65100;
+  }
+  
+  .title-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+  }
+  
+  .mic-button {
+    background: #f57c00;
+    border: none;
+    color: white;
+    border-radius: 20%;
+    padding: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .mic-button:hover {
+    background: #e65100;
+  }
+  
+  .voice-feedback {
+    font-size: 0.8rem;
+    color: #555;
+    margin-top: 6px;
+    text-align: center;
+    max-width: 400px;
+    word-break: break-word;
+  }
+  
